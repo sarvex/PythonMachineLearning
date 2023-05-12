@@ -12,7 +12,7 @@ import os
 
 GRAPHVIS_PATH = r"C:\Program Files (x86)\Graphviz2.38\bin"
 if GRAPHVIS_PATH not in os.environ['PATH']:
-    os.environ['PATH'] += ";" + GRAPHVIS_PATH
+    os.environ['PATH'] += f";{GRAPHVIS_PATH}"
 
 import re
 
